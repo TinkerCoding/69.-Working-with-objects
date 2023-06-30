@@ -1,0 +1,7 @@
+let config = {
+     theme; "dark",
+     currency: "USD"
+};
+
+console.log(config.currency);
+  console.log(config.currency);  // this is a TYPO (on purpose)
