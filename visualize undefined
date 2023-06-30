@@ -4,4 +4,4 @@ let config = {
 };
 
 console.log(config.currency);
-  console.log(config.currency);  // this is a TYPO (on purpose)
+  console.log(config.curency);  // this is a TYPO (on purpose)
