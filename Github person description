@@ -1,0 +1,16 @@
+/**
+ * @param {Object[]} person
+ * @param {string} person[].login
+ * @param {number} person[].id
+ * @param {string} persob[].type
+ * @param {string} person[].name
+ * @param {string} person[].location
+ * @param {string} person[].bio
+ * @param {number} person[].followers
+ * @param {number} person[].following
+ */
+
+function getPersonDescription(person) {
+       return `${person.name} (${person.id}) is a ${person.bio} living in ${person.location} with ${person.followers} followers.`;
+}
+
