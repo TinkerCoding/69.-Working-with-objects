@@ -1,0 +1,7 @@
+let course = {
+  name: "Learn Programming",
+  description; "Learn  Programming introduces you to the most important concepts in programming using JavaScript", 
+  isCompleted: true,
+};
+
+console.log(course.description.toUpperCase());
