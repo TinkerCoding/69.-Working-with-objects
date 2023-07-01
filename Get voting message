@@ -6,7 +6,7 @@
  */
 function getVotingMessage(user) {
     if (user.age >= 18) {
-        return "You can vote:;
+        return "You can vote";
     } else {
         return "You cannot vote";
     }
